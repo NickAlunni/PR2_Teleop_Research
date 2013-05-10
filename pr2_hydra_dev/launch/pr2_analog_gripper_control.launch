@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="hydra_analog_gripper_control" pkg="pr2_hydra_dev" type="hydra_analog_gripper_control" output="screen" />
+  <node name="pr2_hydra_teleop_unsafe" pkg="pr2_hydra_dev" type="pr2_hydra_teleop_unsafe" />
+
+</launch>
